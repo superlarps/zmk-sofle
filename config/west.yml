@@ -6,15 +6,15 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+    - name: gpeye                         #new entry
+      url-base: https://github.com/GPeye  #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-dongle-display-view
-      remote: mctechnology17
-      revision: main
+    - name: urchin-peripheral-animation   #new entry
+      remote: gpeye                       #new entry
+      revision: main                      #new entry
   self:
     path: boards
