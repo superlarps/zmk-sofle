@@ -11,7 +11,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: urchin-peripheral-animation   #new entry
-      remote: superlarps                       #new entry
+      remote: gpeye
       revision: main                      #new entry
   self:
     path: config
