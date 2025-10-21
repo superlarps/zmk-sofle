@@ -4,7 +4,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: urchin-peripheral-animation                         #new entry
-      url-base: https://github.com/superlarps/urchin-peripheral-animation.git
+      url-base: https://github.com/superlarps
   projects:
     - name: zmk
       remote: zmkfirmware
