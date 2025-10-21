@@ -58,7 +58,7 @@
             bindings = <
 &kp GRAVE   &kp F1           &kp F2     &kp F3         &kp F4         &kp F5                  &mmv MOVE_UP     &kp F6                 &kp F7        &kp F8            &kp F9             &kp F10           &kp PRINTSCREEN
 &trans      &kp GRAVE        &mkp LCLK  &mkp MCLK      &mkp RCLK      &kp LEFT_PARENTHESIS    &mmv MOVE_DOWN   &kp RIGHT_PARENTHESIS  &kp HOME      &kp UP            &kp END            &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans     &kp PIPE       &kp SEMI       &kp LEFT_BRACKET        &mmv MOVE_LEFT   &kp RIGHT_BRACKET      &kp COLON     &kp DOWN          &kp RIGHT          &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp TILDE        &kp AMPS   &kp PIPE       &kp SEMI       &kp LEFT_BRACKET        &mmv MOVE_LEFT   &kp RIGHT_BRACKET      &kp COLON     &kp DOWN          &kp RIGHT          &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &kp PLUS   &kt LESS_THAN  &kp BACKSLASH  &kp LEFT_BRACE          &mmv MOVE_RIGHT  &kp RIGHT_BRACE        &kp KP_SLASH  &kp GREATER_THAN  &kp KP_EQUAL       &kp F12           &trans
 &kp C_MUTE  &kp HOME         &trans     &trans         &trans         &trans                  &mkp LCLK        &trans                 &trans        &kp END           &kp RIGHT_BRACKET  &trans
             >;
