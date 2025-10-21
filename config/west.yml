@@ -4,7 +4,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: gpeye                         #new entry
-      url-base: https://github.com/GPeye  #new entry
+      url-base: https://github.com/superlarps/urchin-peripheral-animation  #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
