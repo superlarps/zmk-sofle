@@ -4,14 +4,14 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: gpeye                         #new entry
-      url-base: https://github.com/superlarps/urchin-peripheral-animation  #new entry
+      url-base: https://github.com/superlarps
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: urchin-peripheral-animation   #new entry
-      remote: gpeye                       #new entry
+      remote: superlarps                       #new entry
       revision: main                      #new entry
   self:
     path: config
