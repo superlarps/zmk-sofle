@@ -97,7 +97,7 @@ layers:
   - '&'
   - '|'
   - {t: ;, s: ':'}
-  - {t: '[', s: '{'}
+  - $$mdi:alpha-w-box$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: ']', s: '}'}
   - ':'
