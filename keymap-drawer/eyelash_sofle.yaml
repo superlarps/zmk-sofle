@@ -97,7 +97,7 @@ layers:
   - '&'
   - '|'
   - {t: ;, s: ':'}
-  - '{'
+  - Sft+{
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - '}'
   - ':'
