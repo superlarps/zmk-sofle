@@ -2,19 +2,20 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: urchin-peripheral-animation                         #new entry
-      url-base: https://github.com/superlarps
+      # Additional modules containing boards/shields/custom code can be listed here as well.
+      # See:
+      # - https://zmk.dev/docs/features/modules
+      # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+  #  - name: gpeye
+  #    url-base: https://github.com/GPeye
   projects:
-    - name: urchin-peripheral-animation   #new entry
-      remote: urchin-peripheral-animation
-      revision: main                      #new entry
+   # - name: mario-peripheral-animation
+   #   remote: gpeye
+   #    revision: main 
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: main
-    - name: zmk
-      remote: zmkfirmware
-      revision: v0.3.0
+@@ -21,3 +17,4 @@ manifest:
       import: app/west.yml
   self:
     path: boards
-    
